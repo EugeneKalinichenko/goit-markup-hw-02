@@ -1,0 +1,232 @@
+:root {
+  --primary-title-color: #212121;
+  --secondary-title-color: #ffffff;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --header-primary-text-color: #212121;
+  --header-secondary-text-color: #757575;
+  --background-primary-color: #2f303a;
+  --background-secondary-color: #e5e5e5;
+  --background-third-color: #f5f4fa;
+}
+/* Цвет заголовков #212121  */
+/* Цвет текста #757575  */
+/* Цвет основного фона #E5E5E5  */
+/* Цвет второстпенного фона #2F303A  */
+/* Цвет дополнительного цвета  #2196F3  */
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--primary-title-color-color);
+  letter-spacing: 0.03em;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  color: var(--accent-color);
+}
+
+.logo-name {
+  color: var(--header-primary-text-color);
+}
+.btn {
+  border: none;
+  cursor: pointer;
+}
+
+/* ------------HEADER--------------- */
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--header-primary-text-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+.header-contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--header-secondary-text-color);
+}
+
+.header-contact-link:hover,
+.header-contact-link:focus {
+  color: var(--accent-color);
+}
+.current-link {
+  color: var(--accent-color);
+}
+
+/* ------------Hero--------------- */
+
+.hero {
+  background-color: var(--background-primary-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--secondary-title-color);
+}
+
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical to box height, or 187% */
+  letter-spacing: 0.06em;
+  color: var(--secondary-title-color);
+  background: var(--accent-color);
+  border-radius: 4px;
+}
+
+/* ------------Priveleges--------------- */
+
+.priveleges-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: vat(--primary-text-color);
+}
+
+.priveleges-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  color: var(--secondary-text-color);
+}
+
+/* ------------What are we doing--------------- */
+
+.what-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  color: var(--primary-title-color);
+}
+
+/* ------------Team--------------- */
+
+.team {
+  background-color: var(--background-third-color);
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  color: var(--primary-title-color);
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
+  color: var(--primary-title-color);
+}
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
+  color: var(--secondary-text-color);
+}
+
+/* ------------Footer--------------- */
+
+.contacts {
+  background-color: var(--background-primary-color);
+}
+
+.contacts-address {
+  font-style: inherit;
+}
+
+.googlemaps {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  color: var(--secondary-title-color);
+}
+
+.contactns-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contactns-name {
+  color: var(--secondary-title-color);
+}
+
+/* ------------Portfolio-Hero--------------- */
+
+.works-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+  color: var(--primary-text-color);
+  background: var(--background-third-color);
+  border-radius: 4px;
+}
+
+.btn-current {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+  color: var(--secondary-title-color);
+  background: var(--accent-color);
+  border-radius: 4px;
+}
+
+/* ------------Portfolio--------------- */
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+  color: var(--primary-title-color);
+}
+
+.prtfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical to box height, or 187% */
+  color: var(--secondary-text-color);
+}
