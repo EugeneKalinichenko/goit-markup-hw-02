@@ -60,7 +60,9 @@ body {
 .header-contact-link:focus,
 .contacts-link:hover,
 .contacts-link:focus,
-.current-link {
+.current-link,
+.googlemaps:hover,
+.googlemaps:focus {
   color: var(--accent-color);
 }
 
